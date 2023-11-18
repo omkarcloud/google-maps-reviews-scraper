@@ -114,7 +114,7 @@ Gmaps.links(links, output_folder, scrape_reviews=True, max=5)
 
 No, proxies are not necessary. The scraper can efficiently process hundreds of thousands of leads without them.
 
-### What is the Difference Between your google-maps-scraper and google-maps-reviews-scraper?
+### ❓ What is the Difference Between your google-maps-scraper and google-maps-reviews-scraper?
 
 Both repositories use the same web scraper but are tailored for different audiences:
 
