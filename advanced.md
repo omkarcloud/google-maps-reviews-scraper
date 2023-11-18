@@ -114,7 +114,7 @@ Gmaps.links(links, output_folder, scrape_reviews=True, max=5)
 
 No, proxies are not necessary. The scraper can efficiently process hundreds of thousands of leads without them.
 
-### What is the Difference Between omkarcloud/google-maps-scraper and omkarcloud/google-maps-reviews-scraper?
+### ❓ What is the Difference Between omkarcloud/google-maps-scraper and omkarcloud/google-maps-reviews-scraper?
 
 **omkarcloud/google-maps-reviews-scraper:** 
 - Designed for Data Scientists.
