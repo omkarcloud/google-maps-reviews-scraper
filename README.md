@@ -234,9 +234,9 @@ You may choose to explore the following questions based on your interests:
 #### For Knowledge
 
 1. [Do I Need Proxies?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-do-i-need-proxies)
+2. [Does Running the Scraper on a Bigger Machine Scrape Data Faster?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-does-running-scraper-on-bigger-machine-scrapes-data-faster)
 3. [What is the Difference Between omkarcloud/google-maps-scraper and omkarcloud/google-maps-reviews-scraper?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-what-is-the-difference-between-omkarcloudgoogle-maps-scraper-and-omkarcloudgoogle-maps-reviews-scraper)
 4. [I am a Web Scraper; The Scraper is Really Impressive with Caching and Parallel Scraping Features?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-i-am-a-web-scraper-the-scraper-is-really-impressive-with-caching-and-parallel-scraping-features)
-
 #### For Technical Usage
 
 1. [I don't have Python, or I'm facing errors when setting up the scraper on my PC. How to solve it?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-i-dont-have-python-or-im-facing-errors-when-setting-up-the-scraper-on-my-pc-how-to-solve-it)
