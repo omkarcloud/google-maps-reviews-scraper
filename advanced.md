@@ -102,8 +102,8 @@ Utilize the `links` method to extract information from specific Google Maps plac
 
 ```python
 links = [
-   "https://www.google.com/maps/place/Zinavo-+Web+Development,+Web+Design+Company+in+bangalore,+SEO+Services,+Digital+Marketing+Agency,+eCommerce+Web+Development/@13.01443,77.6480612,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae172f3e7069f1:0xbcac5b2d393c2aa2!8m2!3d13.01443!4d77.6480612!16s%2Fg%2F11h0l3y9l?authuser=0&hl=en&entry=ttu",
-   "https://www.google.com/maps/place/SeekNEO+-+Web+Development,+Web+Design+Company+in+bangalore,+eCommerce+Web+Development,+SEO+Services,+Digital+Marketing+Agency/@12.9863763,77.5473899,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae13ac4bcc6641:0x1bf48a7dee3d5a51!8m2!3d12.9863763!4d77.5473899!16s%2Fg%2F11g2338zrl?authuser=0&hl=en&entry=ttu"
+   "https://www.google.com/maps/place/Zinavo-+Web+Development,+Web+Design+Company+in+Bangalore,+SEO+Services,+Digital+Marketing+Agency,+eCommerce+Web+Development/@13.01443,77.6480612,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae172f3e7069f1:0xbcac5b2d393c2aa2!8m2!3d13.01443!4d77.6480612!16s%2Fg%2F11h0l3y9l?authuser=0&hl=en&entry=ttu",
+   "https://www.google.com/maps/place/SeekNEO+-+Web+Development,+Web+Design+Company+in+Bangalore,+eCommerce+Web+Development,+SEO+Services,+Digital+Marketing+Agency/@12.9863763,77.5473899,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae13ac4bcc6641:0x1bf48a7dee3d5a51!8m2!3d12.9863763!4d77.5473899!16s%2Fg%2F11g2338zrl?authuser=0&hl=en&entry=ttu"
 ]
 output_folder = "my-awesome-places"
 
@@ -114,7 +114,9 @@ Gmaps.links(links, output_folder, scrape_reviews=True, max=5)
 
 No, proxies are not necessary. The scraper can efficiently process hundreds of thousands of leads without them.
 
-### ❓ What is the Difference Between omkarcloud/google-maps-scraper and omkarcloud/google-maps-reviews-scraper?
+### What is the Difference Between omkarcloud/google-maps-scraper and omkarcloud/google-maps-reviews-scraper?
+
+Both repositories use the same web scraper but are tailored for different audiences:
 
 **omkarcloud/google-maps-reviews-scraper:** 
 - Designed for Data Scientists.
