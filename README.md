@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://www.omkar.cloud/images/favicon/prod/favicon-256x256.png" alt="omkar" />
-</p>
+![Google Maps Reviews Scraper Feautred Image](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/google-maps-reviews-scraper-feautred-image)
+
 <div align="center" style="margin-top: 0;">
   <h1>✨ Google Maps Reviews Scraper 🌟</h1>
   <p>🔍 Uncover Valuable Insights from Customer Reviews 🔍</p>
@@ -225,22 +224,20 @@ scraped_places = bt.read_json("scraped_places.json")
 # Do whatever you want with scraped_places
 ```
 
-### Your Scraper is really Robust. I Tried Many Scrapers, Most Don't Even Start. How did you build it?
+### ❓ Your Scraper is really Robust. I Tried Many Scrapers, Most Don't Even Start. How did you build it?
 
-Thanks! we used Botasaurus, which is the secret sauce behind our Google Maps Scraper.
+Thanks! we used Botasaurus, which is the secret sauce behind our Google Maps Reviews Scraper.
 
 It's a Web Scraping Framework that makes life easier for Web Scrapers.
 
-Botasaurus handled the hard parts of our Google Maps Scraper, such as:
+Botasaurus handled the hard parts of our Google Maps Reviews Scraper, such as:
    - Caching
    - Parallel and Asynchronous Scraping
    - Creation and Reuse of Drivers
    - Writing output to CSV and JSON files
    - And Most importantly, defeating Google's Anti-Scraping Measures
 
-If you are a Web Scraper, we highly recommend that you learn about Botasaurus [here](https://github.com/omkarcloud/botasaurus).
-
-Botasaurus will really save you countless hours in your career as a Web Scraper.
+If you are a Web Scraper, we highly recommend that you learn about Botasaurus [here](https://github.com/omkarcloud/botasaurus), because Botasaurus will really save you countless hours in your career as a Web Scraper.
 
 <p align="center">
   <a href="https://github.com/omkarcloud/botasaurus">
