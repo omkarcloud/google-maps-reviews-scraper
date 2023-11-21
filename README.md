@@ -1,4 +1,4 @@
-![Google Maps Reviews Scraper Feautred Image](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/google-maps-reviews-scraper-feautred-image)
+![Google Maps Reviews Scraper Feautred Image](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/google-maps-reviews-scraper-feautred-image.png)
 
 <div align="center" style="margin-top: 0;">
   <h1>✨ Google Maps Reviews Scraper 🌟</h1>
