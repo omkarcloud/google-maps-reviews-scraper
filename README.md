@@ -270,10 +270,9 @@ You may choose to explore the following questions based on your interests:
 3. [How to Change the Language of Output?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-how-to-change-the-language-of-output)
 4. [I have Google Map Places Links, How to Scrape Links?](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/advanced.md#-i-have-google-map-places-links-how-to-scrape-links)
 
-
 ### ❓ Need More Help or Have Additional Questions?
 
-For further assistance, contact us on WhatsApp. We'll reply within 24 hours.
+For further help, ask your question in GitHub Discussions. We'll be happy to help you out.
 
 [![Contact Us on WhatsApp](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/mwa.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products.)
 
