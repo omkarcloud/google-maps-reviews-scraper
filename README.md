@@ -33,6 +33,12 @@
 
 ---
 
+## Disclaimer for Google Maps Reviews Scraper Project
+
+> By using Google Maps Reviews Scraper, you agree to comply with all applicable local and international laws related to data scraping, copyright, and privacy. The developers of Google Maps Reviews Scraper will not be held liable for any misuse of this software. It is the user's sole responsibility to ensure adherence to all relevant laws regarding data scraping, copyright, and privacy, and to use Google Maps Reviews Scraper in an ethical and legal manner, in line with both local and international regulations.
+
+We take concerns related to the Google Maps Reviews Scraper Project very seriously. If you have any inquiries or issues, please contact Chetan Jain at [chetan@omkar.cloud](mailto:chetan@omkar.cloud). We will take prompt and necessary action in response to your emails.
+
 🌟 **Discover What Customers Are Saying** 🌟
 
 I am Google Maps Reviews Scraper, your go-to tool for extracting invaluable customer feedback from Google Maps reviews. Whether you're a business owner, market researcher, or data analyst, understanding customer sentiments is vital. That's where I come in!
@@ -269,7 +275,7 @@ You may choose to explore the following questions based on your interests:
 
 For further assistance, contact us on WhatsApp. We'll reply within 24 hours.
 
-[![Contact Us on WhatsApp](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/mwa.png)](https://wa.me/message/3WED4FYQRDPNE1)
+[![Contact Us on WhatsApp](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/mwa.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products.)
 
 ## Love It? [Star It ⭐!](https://github.com/omkarcloud/google-maps-reviews-scraper)
 
