@@ -272,7 +272,7 @@ You may choose to explore the following questions based on your interests:
 
 ### ❓ Need More Help or Have Additional Questions?
 
-For further help, ask your question in GitHub Discussions. We'll be happy to help you out.
+For further assistance, contact us on WhatsApp. We'll reply within 24 hours.
 
 [![Contact Us on WhatsApp](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/mwa.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products.)
 
