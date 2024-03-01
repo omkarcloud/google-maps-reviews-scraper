@@ -230,6 +230,9 @@ scraped_places = bt.read_json("scraped_places.json")
 # Do whatever you want with scraped_places
 ```
 
+### ❓ Where is the Code for the Scraper?
+Kindly find the complete code at [omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper)
+
 ### ❓ Your Scraper is really Robust. I Tried Many Scrapers, Most Don't Even Start. How did you build it?
 
 Thanks! we used Botasaurus, which is the secret sauce behind our Google Maps Reviews Scraper.
