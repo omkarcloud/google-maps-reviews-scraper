@@ -26,7 +26,7 @@ Gmaps.places(queries, scrape_reviews=True, max=5)
    python main.py
    ```
   
-5. After the scraper finishes, download the leads from the `output` folder.
+5. After the scraper finishes, download the data from the `output` folder.
 
    ![Google Maps Reviews Scraper Result Sample](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/google-maps-reviews-scraper-result.png)
 
@@ -112,7 +112,7 @@ Gmaps.links(links, output_folder, scrape_reviews=True, max=5)
 
 ### ❓ Do I Need Proxies?
 
-No, proxies are not necessary. The scraper can efficiently process hundreds of thousands of leads without them.
+No, proxies are not necessary. The scraper can easily get data without them.
 
 ### ❓ What is the Difference Between your google-maps-scraper and google-maps-reviews-scraper?
 
@@ -124,11 +124,11 @@ Both repositories use the same web scraper but are tailored for different audien
 
 **omkarcloud/google-maps-scraper:** 
 - Aimed at Entrepreneurs.
-- Its README focuses on extracting business listings for lead generation.
+- Its README focuses on extracting business listings.
 
 **Choose based on your need:**
 - Data Scientists for sentiment analysis ➡️ `google-maps-reviews-scraper`, as its README is written specifically for your use case.
-- Entrepreneurs for leads ➡️ `google-maps-scraper`, as its README is written specifically for your use case.
+- Entrepreneurs ➡️ `google-maps-scraper`, as its README is written specifically for your use case.
 
 
 Note: Both repositories are exactly same in terms of code and functionality. The only difference is the README.
