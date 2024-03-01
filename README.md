@@ -57,7 +57,7 @@ Harness the power of authentic customer voices with the Google Maps Reviews Scra
 My standout capabilities are:
 
 1. Extract detailed reviews from Google Maps Search or Google Maps Place Links.
-2. Enjoy limitless scraping without costly subscriptions or pay-per-lead fees.
+2. Enjoy limitless scraping without costly subscriptions.
 3. Sort reviews by Most Relevant, Newest, Highest Rating, or Lowest Rating.
 4. Access well-structured Reviews in JSON and CSV formats for easy data analysis.
 5. Scrape thousands of customer reviews in minutes.
@@ -126,7 +126,7 @@ queries = ["web developers in bangalore"]
 Gmaps.places(queries, scrape_reviews=True)
 ```
 
-Note that you can scrape a maximum of 120 leads per search, as Google does not display more search results beyond that. However, with thousands of cities worldwide, you won't run out of leads.
+Note that you can scrape a maximum of 120 results per search, as Google does not display more search results beyond that. However, with thousands of cities worldwide, you won't run out of results.
 
 ### ❓ How to Scrape Reviews for a Specific Search Query?
 
