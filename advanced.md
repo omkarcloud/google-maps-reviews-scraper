@@ -4,115 +4,34 @@
 
 You can easily run the scraper in Gitpod, a browser-based development environment. Set it up in just 5 minutes by following these steps:
 
-1. Sign up using your GitHub account at [this link](https://gitpod.io/#https://github.com/omkarcloud/google-maps-scraper).
+1. Visit [this link](https://gitpod.io/#https://github.com/omkarcloud/google-maps-scraper) and sign up using your GitHub account.
    
-   ![Screenshot (148)](https://github.com/omkarcloud/google-maps-scraper/assets/53407137/f498dda8-5352-4f7a-9d70-c717859670d4.png)
+   ![Screenshot (148)](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/open-in-gitpod.png)
   
 2. Once signed up, open it in Gitpod.   
 
-   ![gp-continue](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/gp-continue.png)
+   ![gp-continue](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/gp-continue.png)
 
-3. Paste the following code into `main.py`:
-```python
-from src.gmaps import Gmaps
-star_it = '''Love It? Star It! ⭐ https://github.com/omkarcloud/google-maps-reviews-scraper/'''
-
-queries = ["web developers in bangalore"]
-Gmaps.places(queries, scrape_reviews=True, max=5)
-```
-
-4. To start scraping, execute this command in the terminal:
+3. In the terminal, run the following command:
    ```bash
-   python main.py
+   python run.py
    ```
-  
-5. After the scraper finishes, download the data from the `output` folder.
+4. You will see a popup notification with the heading "A service is available on port 3000". In the popup notification, press the **"Open Browser"** button to open the UI Dashboard in your browser
 
-   ![Google Maps Reviews Scraper Result Sample](https://raw.githubusercontent.com/omkarcloud/google-maps-reviews-scraper/master/screenshots/google-maps-reviews-scraper-result.png)
+   ![open-browser.png](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/open-browser.png)
 
-Configure the scraper in Gitpod as you would locally by editing the `main.py` file and running the scraper with the `python main.py` command.
+5. Now, you can enter your search queries and press the Run button to get the results.
 
-Remember to interact with the Gitpod environment, like clicking within it every 30 minutes, to keep the machine active and prevent automatic shutdown. 
+   ![gitpod-image](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/gitpod-image.png)
 
-If you prefer not to click every 30 minutes, consider installing Python on your PC and running the scraper locally.
+Note, that it's important to regularly interact with the Gitpod environment, such as clicking within it every 30 minutes, to keep the machine active and prevent automatic shutdown. 
 
-### ❓ Does running Scraper on Bigger Machine scrapes Data Faster?
-
-No, the scraper is resource-light, showing no significant speed difference whether it's run on an Intel Pentium processor with 4GB of RAM or an Intel i7 processor with 16GB of RAM.
-
-### ❓ How to select more fields?
-
-Seeing a lot of fields can be intimidating, so we have only kept the most important fields in the output for places. You can choose from up to 45+ fields.
-
-To select all fields, use the code below:
-```python
-queries = [
-   "web developers in bangalore"
-]
-Gmaps.places(queries, scrape_reviews=True, max=5, fields=Gmaps.ALL_FIELDS)
-```
-
-For specific fields only, use this code:
-```python
-queries = [
-   "web developers in bangalore"
-]
-
-fields = [
-   Gmaps.Fields.PLACE_ID, 
-   Gmaps.Fields.NAME, 
-   Gmaps.Fields.MAIN_CATEGORY, 
-   Gmaps.Fields.RATING, 
-   Gmaps.Fields.REVIEWS, 
-   Gmaps.Fields.WEBSITE, 
-   Gmaps.Fields.PHONE, 
-   Gmaps.Fields.ADDRESS,
-   Gmaps.Fields.LINK, 
-]
-
-Gmaps.places(queries, scrape_reviews=True, max=5, fields=fields)
-```
-
-Note: The number of selected fields does not impact scraping time.
-
-### ❓ How to Change the Language of Output?
-Pass the `lang` argument. For example, to scrape results in Spanish, use `lang="Gmaps.Lang.Spanish"`.
-
-```python
-queries = [
-   "web developers in bangalore"
-]
-Gmaps.places(queries, scrape_reviews=True, max=5, lang=Gmaps.Lang.Spanish)
-```
-
-All Google Maps languages are supported. Some popular languages you may want to use are:
-- Gmaps.Lang.Spanish
-- Gmaps.Lang.English
-- Gmaps.Lang.Japanese
-- Gmaps.Lang.German
-- Gmaps.Lang.Italian
-
-See the full list of supported languages [here](https://github.com/omkarcloud/google-maps-reviews-scraper/blob/master/languages.md).
-
-**Note:** The `published_at_date` and `response_from_owner_date` fields are provided only in English. They will be null if you scrape reviews in other languages.
-
-### ❓ I have Google Map Places Links, How to Scrape Links?
-
-Utilize the `links` method to extract information from specific Google Maps place links. Here’s an example:
-
-```python
-links = [
-   "https://www.google.com/maps/place/Zinavo-+Web+Development,+Web+Design+Company+in+Bangalore,+SEO+Services,+Digital+Marketing+Agency,+eCommerce+Web+Development/@13.01443,77.6480612,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae172f3e7069f1:0xbcac5b2d393c2aa2!8m2!3d13.01443!4d77.6480612!16s%2Fg%2F11h0l3y9l?authuser=0&hl=en&entry=ttu",
-   "https://www.google.com/maps/place/SeekNEO+-+Web+Development,+Web+Design+Company+in+Bangalore,+eCommerce+Web+Development,+SEO+Services,+Digital+Marketing+Agency/@12.9863763,77.5473899,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae13ac4bcc6641:0x1bf48a7dee3d5a51!8m2!3d12.9863763!4d77.5473899!16s%2Fg%2F11g2338zrl?authuser=0&hl=en&entry=ttu"
-]
-output_folder = "my-awesome-places"
-
-Gmaps.links(links, output_folder, scrape_reviews=True, max=5)
-```
+If you don't want to click every 30 minutes, then we encourage you to install Python and Node.js on your PC and run it locally. 
 
 ### ❓ Do I Need Proxies?
 
-No, proxies are not necessary. The scraper can easily get data without them.
+No, you do not need to use proxies, you're free to run as many queries as you like.
+
 
 ### ❓ What is the Difference Between your google-maps-scraper and google-maps-reviews-scraper?
 
@@ -133,11 +52,32 @@ Both repositories use the same web scraper but are tailored for different audien
 
 Note: Both repositories are exactly same in terms of code and functionality. The only difference is the README.
 
+### ❓ Need More Help or Have Additional Questions?
+
+For further help, feel free to reach out to us through:
+
+- **WhatsApp:** If you prefer WhatsApp, simply send a message [here](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products). Also, to help me provide the best possible answer, please include as much detail as possible.
+
+  [![Contact Us on WhatsApp about Google Maps Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products)
+
+
+- **GitHub Discussions:** If you believe your question could benefit the community, feel free to post it in our GitHub discussions [here](https://github.com/omkarcloud/google-maps-scraper/discussions).
+
+  [![Contact Us on GitHub Discussion](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/ask-on-github.png)](https://github.com/omkarcloud/google-maps-scraper/discussions)
+
+- **Email:** If you prefer email, kindly send your queries to [chetan@omkar.cloud](mailto:chetan@omkar.cloud). Also, to help me provide the best possible answer, please include as much detail as possible.
+
+  [![Contact Us on Email about Google Maps Scraper](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/ask-on-email.png)](mailto:chetan@omkar.cloud)
+
+We look forward to helping you and will respond to emails and whatsapp messages within 24 hours.
+
+Good Luck!
+
 ## Love It? [Star It ⭐!](https://github.com/omkarcloud/google-maps-reviews-scraper)
 
 Become one of our amazing stargazers by giving us a star ⭐ on GitHub!
 
-It's just one click, but it means the world to us.
+It's just one click, but it means the world to me.
 
 [![Stargazers for @omkarcloud/google-maps-reviews-scraper](https://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=omkarcloud&repo=google-maps-reviews-scraper)](https://github.com/omkarcloud/google-maps-reviews-scraper/stargazers)
 
