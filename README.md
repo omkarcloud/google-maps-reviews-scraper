@@ -888,7 +888,3 @@ If this tool has been helpful, please give us a **star ⭐** on GitHub. You have
 ![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)
 
 ## Made with ❤️ using [Botasaurus Web Scraping Framework](https://www.omkar.cloud/l/google-maps-to-botasaurus/)
-
-### Not in your Budget?
-
-If you are a student or a person just starting your business, and the Pro Version is not in your budget, you can let us know via [WhatsApp](https://api.whatsapp.com/send?phone=918178804274&text=Kindly%20provide%20me%20the%20Pro%20Version%20of%20the%20Google%20Maps%20Extractor,%20as%20it%20is%20not%20in%20my%20budget.) or [Email](mailto:happy.to.help@omkar.cloud?subject=Request%20for%20Pro%20Version%20of%20Google%20Maps%20Extractor&body=Kindly%20provide%20me%20the%20Pro%20Version%20of%20the%20Google%20Maps%20Extractor%2C%20as%20it%20is%20not%20in%20my%20budget.) and we will provide you with the Pro Version. Don't hesitate—it will take 5 minutes to WhatsApp/Email, and it will make us happy 😊 to help you.
